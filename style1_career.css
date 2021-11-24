@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+#menu{
+    text-align: center;
+    padding: 20px 0;
+}
+
+#main_m, #description_m, #obligations_m, #pros_m, #career_m{
+    color: #536F7E;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#description_m, #obligations_m, #pros_m, #career_m{
+    margin-left: 50px;
+}
+
+#main_m{
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+#sea_block_p1{
+    height: 300px;
+    background-color: #536F7E;
+}
+
+#heading_p1{
+    font-size: 64px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+#photo_p1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#text_p1{
+    font-size: 18px;
+    text-align: justify;
+    padding: 30px 10.5%;
+}
+
+#to_observe_p1{
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#to_observe_flex_p1{
+    display: inline-flex;
+    padding-left: 19%;
+    padding-right: 19%;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+#to_observe_f2_p1{
+    padding-left: 223px;
+}
+
+#to_observe_e1_f1_p1, #to_observe_e2_f1_p1, #to_observe_e1_f2_p1, #to_observe_e2_f2_p1{
+    display: inline-flex;
+}
+
+#to_observe_e2_f1_p1, #to_observe_e2_f2_p1{
+    padding-top: 40px;
+}
+
+#skill_text_p1, #pros_cons_text_p1, #obligations_text_p1, #promotion_text_p1{
+    font-size: 14px;
+    width: 257px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 20px;
+}
+
+#for_button_p1{
+    width: 150px;
+    height: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+#button_p1{
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    color: #B41B5B;
+    border: 2px solid #B41B5B;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 15px;
+    transition: background-color 0.5s;
+}
+
+#button_p1:hover{
+    background-color: #B41B5B;
+    color: white;
+}
